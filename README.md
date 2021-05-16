@@ -15,3 +15,5 @@ Clone this repository in a directory and check it !
 Used [HTML](https://www.w3schools.com/html/"), [CSS]("https://www.w3schools.com/css/") and [JavaScript]("https://www.w3schools.com/js/").
 
 ### 📷 Templates
+
+![Overview](docs/overview.gif)
