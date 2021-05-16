@@ -8,6 +8,9 @@
     <title>Cockatiel Clicker ! | By Le4nnt0nn</title>
     <!--Styles-->
     <link rel="stylesheet" href="css/main.css">
+    <!--JavaScript-->
+    <!--Clicker counter JS-->
+    <script type="text/javascript" src="js/clicks.js"></script>
 </head>
 <body>
     
@@ -29,28 +32,18 @@
     </div>
 
 
-    <!--Clicker counter JS-->
-    <script>
-        var clicks = 0;
-        function increment() {
-            clicks = clicks + 1;
-            seed_counter.innerHTML = clicks;
-        }
-        function reset() {
-            clicks = 0;
-            seed_counter.innerHTML = clicks;
-        }
-    </script>
+    <!--Other scripts-->
     <!--Sounds-->
     <script>
         var audio = document.getElementById("click_sound");
         function click_cockatiel() {
             audio.play();
-        }
+    }
         var audio2 = document.getElementById("reset_sound");
         function click_reset() {
             audio2.play();
-        }  
+    }  
     </script>
+
 </body>
 </html>
