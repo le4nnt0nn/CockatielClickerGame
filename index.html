@@ -16,9 +16,16 @@
         <h1>Cockatiel Clicker</h1>
         <h3>Created by Le4nnt0nn</h3>
         <h4>Click me ! I´m hungry</h4>
-        <img src="img/cockatiel.png" id="cockatiel" style="width: auto; height: 300px;" onclick="increment()">
+         <!--Audio-->
+        <audio id="click_sound">
+            <source src="audio/clickSound.mp3" type="audio/mpeg"> 
+        </audio>
+        <img src="img/cockatiel.png" id="cockatiel" style="width: auto; height: 300px;" onclick="increment(), click_cockatiel()">
         <p>Seeds: <span id="seed_counter">0</span></p>
-        <button id="reset" onclick = "reset()">Reset</button>
+        <audio id="reset_sound">
+            <source src="audio/resetSound.mp3" type="audio/mpeg"> 
+        </audio>
+        <button id="reset" onclick = "reset(), click_reset()">Reset</button>
     </div>
 
 
@@ -33,6 +40,17 @@
             clicks = 0;
             seed_counter.innerHTML = clicks;
         }
+    </script>
+    <!--Sounds-->
+    <script>
+        var audio = document.getElementById("click_sound");
+        function click_cockatiel() {
+            audio.play();
+        }
+        var audio2 = document.getElementById("reset_sound");
+        function click_reset() {
+            audio2.play();
+        }  
     </script>
 </body>
 </html>
