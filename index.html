@@ -15,9 +15,23 @@
     <div class="center">
         <h1>Cockatiel Clicker</h1>
         <h3>Created by Le4nnt0nn</h3>
-        <img src="img/cockatiel.png" id="cockatiel" style="width: auto; height: 300px;">
-        <p>Seeds: 0</p>
+        <img src="img/cockatiel.png" id="cockatiel" style="width: auto; height: 300px;" onclick="increment()">
+        <p>Seeds: <span id="seed_counter">0</span></p>
+        <button id="reset" onclick = "reset()">Reset</button>
     </div>
 
+
+    <!--Clicker counter JS-->
+    <script>
+        var clicks = 0;
+        function increment() {
+            clicks = clicks + 1;
+            seed_counter.innerHTML = clicks;
+        }
+        function reset() {
+            clicks = 0;
+            seed_counter.innerHTML = clicks;
+        }
+    </script>
 </body>
 </html>
