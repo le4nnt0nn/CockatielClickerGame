@@ -9,6 +9,10 @@ A simple clicker game for learning.
 ### 🚀 Launch
 
 Clone this repository in a directory and check it !
+
+#### Demo
+
+Try demo ![here](https://replit.com/@le4nnt0nn/CockatielClickerGame).
  
 ### 🧪 Technologies
 
