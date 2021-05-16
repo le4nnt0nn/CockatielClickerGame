@@ -41,6 +41,9 @@
     font-size: 20px;
     color: rgb(190, 153, 31);
 }
+.center #seed_counter {
+    color: red;
+}
 .center h4 {
     margin-top: 60px;
     text-align: center;
@@ -57,4 +60,5 @@
     cursor: pointer;
     border: none;
     padding: 15px 32px;
+    box-shadow: 5px 10px;
 }
