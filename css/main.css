@@ -28,7 +28,7 @@
     text-align: center;
 }
 .center #cockatiel {
-    margin-top: 60px;
+    margin-top: 10px;
     margin-right: 40px;
     text-align: center;
     justify-content: center;
@@ -40,4 +40,21 @@
     margin-top: 20px;
     font-size: 20px;
     color: rgb(190, 153, 31);
+}
+.center h4 {
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(221, 224, 18);
+}
+.center #reset {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    padding: 15px 32px;
 }
