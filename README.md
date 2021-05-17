@@ -18,6 +18,15 @@ Try demo [here](https://replit.com/@le4nnt0nn/CockatielClickerGame).
 
 Used [HTML](https://www.w3schools.com/html/"), [CSS]("https://www.w3schools.com/css/") and [JavaScript]("https://www.w3schools.com/js/").
 
+### 📋 Features
+
+* Added **bonus**.
+* Reset button.
+* Implemented sounds.
+
 ### 📷 Templates
 
-![Overview](docs/overview.gif)
+<div align="center">
+    <img src="docs/overview.gif">
+</div>
+
