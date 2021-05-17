@@ -44,6 +44,30 @@ function increment() {
     if (clicks > 400000) {
         clicks = clicks + 800;
     }
+    if (clicks > 600000) {
+        clicks = clicks + 1200;
+    }
+    if (clicks > 1000000) {
+        clicks = clicks + 1800;
+    }
+    if (clicks > 1500000) {
+        clicks = clicks + 3000;
+    }
+    if (clicks > 2000000) {
+        clicks = clicks + 5000;
+    }
+    if (clicks > 8000000) {
+        clicks = clicks + 8000;
+    }
+    if (clicks > 10000000) {
+        clicks = clicks + 10000;
+    }
+    if (clicks > 15000000) {
+        clicks = clicks + 18000;
+    }
+    if (clicks > 20000000) {
+        clicks = clicks + 30000;
+    }
 }
 function reset() {
     clicks = 0;
