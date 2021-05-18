@@ -48,6 +48,12 @@
 .center #seed_counter {
     color: red;
 }
+.center #highscore {
+    color: #d0ff00;
+}
+.center #highscore_count {
+    color: #e8f570;
+}
 .center h4 {
     margin-top: 60px;
     text-align: center;
