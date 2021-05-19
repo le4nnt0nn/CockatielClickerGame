@@ -1,4 +1,9 @@
+//Vars
 var clicks = 0;
+var score = 0;
+var highscore = 0;
+
+//Function
 function increment() {
     clicks = clicks + 1;
     seed_counter.innerHTML = clicks;
@@ -68,8 +73,14 @@ function increment() {
     if (clicks > 20000000) {
         clicks = clicks + 30000;
     }
+
+    //Score
+    score = clicks;
+    highscore = score;
 }
 function reset() {
     clicks = 0;
     seed_counter.innerHTML = clicks;
+    //Save Highscore
+    highscore_count.innerHTML = highscore;
 }
