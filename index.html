@@ -11,6 +11,7 @@
     <!--JavaScript-->
     <!--Clicker counter JS-->
     <script type="text/javascript" src="js/clicks.js"></script>
+    <script type="text/javascript" src="js/crono.js"></script>
 </head>
 <body>
     
@@ -18,6 +19,10 @@
     <div class="center">
         <h1>Cockatiel Clicker</h1>
         <h3>Created by Le4nnt0nn</h3>
+        <div id="crono">
+            <input id="time" name="time" value="0" disabled/>
+            <input type="button" value="Start" onclick="init()" />
+        </div>
         <h4>Click me ! I´m hungry</h4>
          <!--Audio-->
         <audio id="click_sound">
