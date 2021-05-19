@@ -76,7 +76,9 @@ function increment() {
 
     //Score
     score = clicks;
-    highscore = score;
+    if (score > highscore) {
+        highscore = score;    
+    }
 }
 function reset() {
     clicks = 0;
