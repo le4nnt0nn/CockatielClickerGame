@@ -93,7 +93,7 @@
     box-shadow: 0 9px rgb(196, 190, 132);
     padding: 15px 32px;
 }
-.center #buy_button:active {
+.center #buy_button1:active {
     background-color: rgb(175, 168, 100);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
