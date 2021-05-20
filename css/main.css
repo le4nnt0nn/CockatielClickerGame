@@ -60,7 +60,7 @@
     text-align: center;
     color: rgb(221, 224, 18);
 }
-.center #reset {
+.center #button {
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: center;
@@ -74,7 +74,7 @@
     box-shadow: 0 9px #999;
     padding: 15px 32px;
 }
-.center #reset:active {
+.center #button:active {
     background-color: #d9e4a9;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
