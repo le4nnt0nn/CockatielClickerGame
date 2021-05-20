@@ -86,3 +86,12 @@ function reset() {
     //Save Highscore
     highscore_count.innerHTML = highscore;
 }
+
+function buy() {
+    var buy1 = document.getElementById("buy_button");
+    if(clicks>=50){
+        buy1.style.display = 'inline';
+    } else {
+        buy1.style.display = 'none';
+    }
+}
