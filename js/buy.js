@@ -6,3 +6,9 @@ function check_buy() {
         buy1.style.display = 'none';
     }
 }
+
+function buy_suc() {
+   seed_counter.innerHTML = clicks - 50;
+   clicks = clicks - 50;
+   check_buy();
+}
