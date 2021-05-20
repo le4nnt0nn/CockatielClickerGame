@@ -79,3 +79,22 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+.center #buy_button {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(255, 243, 131);
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(196, 190, 132);
+    padding: 15px 32px;
+}
+.center #buy_button:active {
+    background-color: rgb(175, 168, 100);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
