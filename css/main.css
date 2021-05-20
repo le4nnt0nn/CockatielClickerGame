@@ -27,19 +27,6 @@
     color: rgb(148, 148, 148);
     text-align: center;
 }
-.center #crono {
-    margin-top: 20px;
-    text-align: center;
-    justify-content: center;
-}
-.center #time {
-    text-align: center;
-    justify-content: center;
-    background-color: transparent;
-    border: none;
-    font-size: 40px;
-    color: #d0ff00;
-}
 
 .center #cockatiel {
     margin-top: 30px;
