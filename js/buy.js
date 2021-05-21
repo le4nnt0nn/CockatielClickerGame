@@ -1,3 +1,5 @@
+var buy1_count = 0;
+
 function check_buy() {
     var buy1 = document.getElementById("buy_button1");
     if(clicks>=50){
@@ -10,5 +12,6 @@ function check_buy() {
 function buy_suc() {
    seed_counter.innerHTML = clicks - 50;
    clicks = clicks - 50;
+   buy1_count = buy1_count + 1;
    check_buy();
 }
