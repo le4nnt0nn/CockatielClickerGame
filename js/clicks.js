@@ -12,6 +12,12 @@ function increment() {
     } else {
         clicks = clicks + 1;
     }
+
+    if (buy2_count>0) {
+        clicks = clicks + buy1_count + 10;
+    } else {
+        clicks = clicks + 1;
+    }
     
 
     //Score
