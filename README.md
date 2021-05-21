@@ -26,9 +26,9 @@ Used [HTML](https://www.w3schools.com/html/"), [CSS]("https://www.w3schools.com/
 * Implemented sounds.
 
 ### 📷 Templates
-<img src="docs/mainOv.png">
+<img src="docs/mainOv.PNG">
 
-<img src="docs/bonusOv.png">
+<img src="docs/bonusOv.PNG">
 
 ***
 
