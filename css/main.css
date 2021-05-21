@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
 }
+
 .center {
     width: 800;
     height: auto;
@@ -21,6 +22,7 @@
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
 .center h3 {
     font-size: 40px;
     margin-top: 10px;
@@ -35,31 +37,39 @@
     justify-content: center;
     -webkit-transition: all .2s ease-in-out;
 }
+
 .center #cockatiel:hover {
     cursor: pointer;
 }
+
 .center #cockatiel:active {
     -webkit-transform: scale(1.1);
 }
+
 .center p {
     margin-top: 20px;
     font-size: 20px;
     color: rgb(190, 153, 31);
 }
+
 .center #seed_counter {
     color: red;
 }
+
 .center #highscore {
     color: #d0ff00;
 }
+
 .center #highscore_count {
     color: #e8f570;
 }
+
 .center h4 {
     margin-top: 30px;
     text-align: center;
     color: rgb(221, 224, 18);
 }
+
 .center #button {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -74,14 +84,17 @@
     box-shadow: 0 9px #999;
     padding: 15px 32px;
 }
+
 .center #button:active {
     background-color: #d9e4a9;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
 .center #bonus_buttons {
     display: inline-grid;
 }
+
 .center #buy_button1 {
     margin-top: 50px;
     margin-bottom: 0px;
@@ -96,11 +109,13 @@
     box-shadow: 0 9px rgb(196, 190, 132);
     padding: 15px 32px;
 }
+
 .center #buy_button1:active {
     background-color: #d9e4a9;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
 .center #buy_button2 {
     margin-top: 50px;
     margin-bottom: 0px;
@@ -115,11 +130,13 @@
     box-shadow: 0 9px rgb(220 213 149);
     padding: 15px 32px;
 }
+
 .center #buy_button2:active {
     background-color: #d9e4a9;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
 .center #buy_button3 {
     margin-top: 50px;
     margin-bottom: 0px;
@@ -134,11 +151,13 @@
     box-shadow: 0 9px rgb(236 174 103);
     padding: 15px 32px;
 }
+
 .center #buy_button3:active {
     background-color: #d9e4a9;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
 .center #buy_button4 {
     margin-top: 50px;
     margin-bottom: 0px;
@@ -153,6 +172,7 @@
     box-shadow: 0 9px rgb(236 140 64);
     padding: 15px 32px;
 }
+
 .center #buy_button4:active {
     background-color: #d9e4a9;
     box-shadow: 0 5px #666;
