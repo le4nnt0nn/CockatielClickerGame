@@ -32,7 +32,7 @@ Used [HTML](https://www.w3schools.com/html/"), [CSS]("https://www.w3schools.com/
 
 ***
 
-<div style="text-align:center">
+<div align="center">
     <h4>Action Overview</h4>
     <img src="docs/actionOv.gif">
 </div>
