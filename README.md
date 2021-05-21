@@ -21,12 +21,21 @@ Used [HTML](https://www.w3schools.com/html/"), [CSS]("https://www.w3schools.com/
 ### 📋 Features
 
 * Added **bonus**.
+* Highscore.
 * Reset button.
 * Implemented sounds.
 
 ### 📷 Templates
+<img src="docs/mainOv.png">
 
-<div align="center">
-    <img src="docs/overview.gif">
+<img src="docs/bonusOv.png">
+
+***
+
+<div style="text-align:center">
+    <h4>Action Overview</h4>
+    <img src="docs/actionOv.gif">
 </div>
+
+
 
