@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--Favicon here-->
+    <!--Favicon here-->
     <title>Cockatiel Clicker ! | By Le4nnt0nn</title>
     <!--Styles-->
     <link rel="stylesheet" href="css/main.css">
@@ -13,55 +14,68 @@
     <script type="text/javascript" src="js/clicks.js"></script>
     <script type="text/javascript" src="js/buy.js"></script>
 </head>
+
 <body>
-    
+
     <!--Center and title-->
     <div class="center">
-        <h1>Cockatiel Clicker</h1>
 
-        <audio id="buy_sound">
-            <source src="audio/buySound.mp3" type="audio/mpeg"> 
-        </audio>
+        <h1>Cockatiel Clicker</h1>
 
         <!--Bonus Buttons-->
         <div id="bonus_buttons">
-            <button id="buy_button1", onclick="click_buy(), buy_suc1()" style="display: none;">Buy Water (50 seeds)</button>
-            <button id="buy_button2", onclick="click_buy(), buy_suc2()" style="display: none;">Buy SunflowerSeeds (500 seeds)</button>
-            <button id="buy_button3", onclick="click_buy(), buy_suc3()" style="display: none;">Buy SuperSunflowerSeeds (5000 seeds)</button>
-            <button id="buy_button4", onclick="click_buy(), buy_suc4()" style="display: none;">Buy SuperUltraSunflowerSeeds (50000 seeds)</button>
+            <button id="buy_button1" , onclick="click_buy(), buy_suc1()" style="display: none;">Buy Water (50
+                seeds)</button>
+            <button id="buy_button2" , onclick="click_buy(), buy_suc2()" style="display: none;">Buy SunflowerSeeds (500
+                seeds)</button>
+            <button id="buy_button3" , onclick="click_buy(), buy_suc3()" style="display: none;">Buy SuperSunflowerSeeds
+                (5000 seeds)</button>
+            <button id="buy_button4" , onclick="click_buy(), buy_suc4()" style="display: none;">Buy
+                SuperUltraSunflowerSeeds (50000 seeds)</button>
         </div>
-        
+
+        <!--Game Center-->
         <h4>Click me ! I´m hungry</h4>
-         <!--Audio-->
-        <audio id="click_sound">
-            <source src="audio/clickSound.mp3" type="audio/mpeg"> 
-        </audio>
-        <img src="img/cockatiel.png" id="cockatiel" style="width: auto; height: 300px;" onclick="increment(), click_cockatiel(), check_buy()">
+        <img src="img/cockatiel.png" id="cockatiel" style="width: auto; height: 300px;"
+            onclick="increment(), click_cockatiel(), check_buy()">
         <p>Seeds: <span id="seed_counter">0</span></p>
         <p id="highscore">Highscore: <span id="highscore_count">0</span></p>
-        <audio id="reset_sound">
-            <source src="audio/resetSound.mp3" type="audio/mpeg"> 
-        </audio>
-        <button id="button" onclick = "reset(), click_reset()">Reset</button>
+        <button id="button" onclick="reset(), click_reset()">Reset</button>
+
     </div>
+
+    <!--Audio-->
+    <audio id="click_sound">
+        <source src="audio/clickSound.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="reset_sound">
+        <source src="audio/resetSound.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="buy_sound">
+        <source src="audio/buySound.mp3" type="audio/mpeg">
+    </audio>
 
 
     <!--Other scripts-->
     <!--Sounds-->
     <script>
         var audio = document.getElementById("click_sound");
+
         function click_cockatiel() {
             audio.play();
-    }
+        }
         var audio2 = document.getElementById("reset_sound");
+
         function click_reset() {
             audio2.play();
-    }  
+        }
         var audio3 = document.getElementById("buy_sound");
+
         function click_buy() {
             audio3.play();
-    }
+        }
     </script>
 
 </body>
+
 </html>
