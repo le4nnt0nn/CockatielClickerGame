@@ -7,32 +7,14 @@ var buy4_count = 0;
 // Function check Buy
 function check_buy() {
     var buy1 = document.getElementById("buy_button1");
-    if (clicks >= 50) {
-        buy1.style.display = "inline";
-    } else {
-        buy1.style.display = "none";
-    }
-
     var buy2 = document.getElementById("buy_button2");
-    if (clicks >= 500) {
-        buy2.style.display = "inline";
-    } else {
-        buy2.style.display = "none";
-    }
-
     var buy3 = document.getElementById("buy_button3");
-    if (clicks >= 5000) {
-        buy3.style.display = "inline";
-    } else {
-        buy3.style.display = "none";
-    }
-
     var buy4 = document.getElementById("buy_button4");
-    if (clicks >= 50000) {
-        buy4.style.display = "inline";
-    } else {
-        buy4.style.display = "none";
-    }
+
+    buy1.style.display = clicks >= 50 ? "inline" : "node";
+    buy2.style.display = clicks >= 500 ? "inline" : "node";
+    buy3.style.display = clicks >= 5000 ? "inline" : "node";
+    buy4.style.display = clicks >= 50000 ? "inline" : "node";
 }
 
 // Success buy function
