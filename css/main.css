@@ -79,6 +79,9 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+.center #bonus_buttons {
+    display: inline-grid;
+}
 .center #buy_button1 {
     margin-top: 50px;
     margin-bottom: 0px;
@@ -94,7 +97,26 @@
     padding: 15px 32px;
 }
 .center #buy_button1:active {
-    background-color: rgb(175, 168, 100);
+    background-color: #d9e4a9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.center #buy_button2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(210 190 10);
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(220 213 149);
+    padding: 15px 32px;
+}
+.center #buy_button2:active {
+    background-color: #d9e4a9;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
